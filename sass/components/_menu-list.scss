@@ -1,4 +1,4 @@
-.menu-list {
+.menu {
   display: flex;
   align-items: center;
   .current {
@@ -20,7 +20,7 @@
   }
 }
 
-.menu-list__link {
+.menu__link {
   position: relative;
   font-weight: 500;
   font-size: 14px;

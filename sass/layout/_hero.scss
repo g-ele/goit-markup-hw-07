@@ -12,18 +12,18 @@
     ),
     url("../img/bg/hero-bg.jpg");
   background-size: cover;
+  &__title {
+    color: #ffffff;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.5;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    margin: 0 auto 30px;
+    max-width: 696px;
+  }
 }
 
-.hero-title {
-  color: #ffffff;
-  font-weight: 900;
-  font-size: 44px;
-  line-height: 1.5;
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
-  margin: 0 auto 30px;
-  max-width: 696px;
-}
 .modal-btn {
   font-weight: 700;
   font-size: 16px;

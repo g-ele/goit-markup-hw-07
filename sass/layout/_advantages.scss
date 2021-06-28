@@ -1,7 +1,9 @@
-.advantages-list {
-  display: flex;
-  flex-wrap: wrap;
-  margin-right: -30px;
+.advantages {
+  &__list {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -30px;
+  }
 
   &__icon {
     display: flex;
