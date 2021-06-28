@@ -1,0 +1,130 @@
+.footer-general {
+  display: flex;
+  align-items: baseline;
+}
+.footer {
+  background-color: #2f303a;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.footer-container {
+  margin-right: 70px;
+}
+
+.logo-link-footer {
+  font-family: var(--secondary-font);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  color: #000000;
+}
+.logo-link .logo-link-web {
+  color: var(--accent-color);
+}
+.logo-link-studio {
+  font-family: var(--secondary-font);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+.adress {
+  margin-top: 20px;
+}
+.adress-link {
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+
+  color: #ffffff;
+}
+.adress-link-mail-tel {
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+
+  color: var(--main-color);
+}
+.adress-item {
+  margin-bottom: 9px;
+  &:nth-child(3n) {
+    margin-bottom: 0px;
+  }
+}
+
+.social-footer {
+  margin-right: 93px;
+}
+
+.social-footer-list {
+  display: flex;
+}
+
+.subtitle-footer {
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+.social-footer-list {
+  display: flex;
+}
+.social-footer-list-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  fill: #ffffff;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.1);
+  transition: background-color 2500ms cubic-bezier(0.4, 0, 0.2, 1);
+  margin-right: 10px;
+  &:hover,
+  &:focus {
+    background-color: #2196f3;
+  }
+}
+
+.footer-form-wrapper {
+  display: flex;
+  margin-top: 20px;
+  align-items: center;
+}
+.input-mail-footer {
+  width: 358px;
+  height: 50px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-sizing: border-box;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+  background-color: #2f303a;
+  padding: 16px 0 16px 16px;
+  margin-right: 12px;
+  outline: none;
+}
+.footer-form-btn {
+  width: 200px;
+  height: 50px;
+  background-color: #2f303a;
+  background: #2196f3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  font-size: 16px;
+  line-height: 1.88;
+
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  padding: 10px 28px;
+
+  color: #ffffff;
+  border-color: transparent;
+}
+.footer-send-icon {
+  position: absolute;
+  transform: translateX(2%);
+}

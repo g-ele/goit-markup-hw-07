@@ -1,0 +1,24 @@
+.header {
+  padding-top: 32px;
+  padding-bottom: 32px;
+
+  &__container {
+    display: flex;
+    justify-content: space-between;
+  }
+  &__navigation {
+    display: flex;
+  }
+}
+
+.logo-link-web {
+  color: var(--accent-color);
+}
+.logo-link {
+  font-family: var(--secondary-font);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  color: #000000;
+  margin-right: 93px;
+}
